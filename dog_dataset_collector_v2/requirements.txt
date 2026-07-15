@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+transformers==4.45.2
+ultralytics
+icrawler
+tqdm
+requests
+pillow
+einops
+timm
