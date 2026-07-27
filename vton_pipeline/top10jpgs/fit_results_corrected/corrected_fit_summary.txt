@@ -1,0 +1,77 @@
+================================================================================
+      TOP 10 GOLDEN RETRIEVER AXIS CORRECTION: UNCORRECTED VS CORRECTED
+================================================================================
+
+Golden ID  | Uncorrected Girth  | Corrected Girth  | Corrected Height  | Corrected Width
+-------------------------------------------------------------------------------------
+00002      | 151.17             | 57.02            | 47.60             | 22.63          
+00003      | 164.69             | 68.85            | 55.45             | 25.08          
+00004      | 149.34             | 59.42            | 40.77             | 23.87          
+00005      | 185.38             | 85.23            | 48.10             | 27.58          
+00006      | 176.50             | 69.49            | 32.88             | 23.62          
+00007      | 179.59             | 49.48            | 38.93             | 16.53          
+00008      | 197.57             | 63.75            | 41.87             | 19.36          
+00009      | 240.62             | 73.24            | 39.85             | 18.26          
+00010      | 199.57             | 74.67            | 43.49             | 22.45          
+
+=====================================================================================
+     CORRECTED MESH FIT VERDICTS (S/M/L)
+=====================================================================================
+
+Golden ID: 00002
+  Corrected Girth: 57.02 cm
+  S Size Verdict:  Loose
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong!
+
+Golden ID: 00003
+  Corrected Girth: 68.85 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong!
+
+Golden ID: 00004
+  Corrected Girth: 59.42 cm
+  S Size Verdict:  Good fit
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+
+Golden ID: 00005
+  Corrected Girth: 85.23 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Good fit
+
+Golden ID: 00006
+  Corrected Girth: 69.49 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Good fit
+  L Size Verdict:  Loose
+
+Golden ID: 00007
+  Corrected Girth: 49.48 cm
+  S Size Verdict:  Loose
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong!
+
+Golden ID: 00008
+  Corrected Girth: 63.75 cm
+  S Size Verdict:  Good fit
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+
+Golden ID: 00009
+  Corrected Girth: 73.24 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Good fit
+  L Size Verdict:  Loose
+
+Golden ID: 00010
+  Corrected Girth: 74.67 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Good fit
+  L Size Verdict:  Loose
+

@@ -1,0 +1,91 @@
+================================================================================
+     TOP 10 GOLDEN RETRIEVER MEASUREMENT COMPARISON: UNCLEANED VS CLEANED
+================================================================================
+
+Golden ID  | Components | Uncleaned (cm)  | Cleaned (cm)  | Diff (cm)  | Diff (%)
+--------------------------------------------------------------------------------
+00001      | 1          | 203.46          | 203.46        | +0.00      | +0.00   
+00002      | 2          | 151.17          | 151.17        | +0.00      | +0.00   
+00003      | 4          | 164.69          | 164.69        | +0.00      | +0.00   
+00004      | 3          | 149.34          | 149.34        | +0.00      | +0.00   
+00005      | 2          | 185.38          | 185.38        | +0.00      | +0.00   
+00006      | 3          | 176.50          | 176.50        | +0.00      | +0.00   
+00007      | 1          | 179.59          | 179.59        | +0.00      | +0.00   
+00008      | 1          | 197.57          | 197.57        | +0.00      | +0.00   
+00009      | 2          | 240.62          | 240.62        | +0.00      | +0.00   
+00010      | 7          | 199.57          | 199.57        | +0.00      | +0.00   
+
+================================================================================
+     CLEANED MESH FIT VERDICTS (S/M/L)
+================================================================================
+
+Golden ID: 00001
+  Cleaned Girth:   203.46 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00002
+  Cleaned Girth:   151.17 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00003
+  Cleaned Girth:   164.69 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00004
+  Cleaned Girth:   149.34 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00005
+  Cleaned Girth:   185.38 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00006
+  Cleaned Girth:   176.50 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00007
+  Cleaned Girth:   179.59 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00008
+  Cleaned Girth:   197.57 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00009
+  Cleaned Girth:   240.62 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+
+Golden ID: 00010
+  Cleaned Girth:   199.57 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Tight
+  L Size Verdict:  Tight
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong (No Good Fit)!
+

@@ -1,0 +1,164 @@
+[
+  {
+    "dog": "00002",
+    "size": "S",
+    "success": true,
+    "time_s": 35.0
+  },
+  {
+    "dog": "00002",
+    "size": "M",
+    "success": true,
+    "time_s": 32.6
+  },
+  {
+    "dog": "00002",
+    "size": "L",
+    "success": true,
+    "time_s": 34.3
+  },
+  {
+    "dog": "00003",
+    "size": "S",
+    "success": true,
+    "time_s": 36.8
+  },
+  {
+    "dog": "00003",
+    "size": "M",
+    "success": true,
+    "time_s": 35.0
+  },
+  {
+    "dog": "00003",
+    "size": "L",
+    "success": true,
+    "time_s": 38.3
+  },
+  {
+    "dog": "00004",
+    "size": "S",
+    "success": true,
+    "time_s": 43.9
+  },
+  {
+    "dog": "00004",
+    "size": "M",
+    "success": true,
+    "time_s": 39.6
+  },
+  {
+    "dog": "00004",
+    "size": "L",
+    "success": true,
+    "time_s": 47.3
+  },
+  {
+    "dog": "00005",
+    "size": "S",
+    "success": true,
+    "time_s": 44.6
+  },
+  {
+    "dog": "00005",
+    "size": "M",
+    "success": true,
+    "time_s": 43.0
+  },
+  {
+    "dog": "00005",
+    "size": "L",
+    "success": true,
+    "time_s": 50.1
+  },
+  {
+    "dog": "00006",
+    "size": "S",
+    "success": true,
+    "time_s": 53.0
+  },
+  {
+    "dog": "00006",
+    "size": "M",
+    "success": true,
+    "time_s": 42.0
+  },
+  {
+    "dog": "00006",
+    "size": "L",
+    "success": true,
+    "time_s": 44.9
+  },
+  {
+    "dog": "00007",
+    "size": "S",
+    "success": true,
+    "time_s": 49.1
+  },
+  {
+    "dog": "00007",
+    "size": "M",
+    "success": true,
+    "time_s": 44.2
+  },
+  {
+    "dog": "00007",
+    "size": "L",
+    "success": true,
+    "time_s": 48.0
+  },
+  {
+    "dog": "00008",
+    "size": "S",
+    "success": true,
+    "time_s": 48.2
+  },
+  {
+    "dog": "00008",
+    "size": "M",
+    "success": true,
+    "time_s": 42.2
+  },
+  {
+    "dog": "00008",
+    "size": "L",
+    "success": true,
+    "time_s": 47.3
+  },
+  {
+    "dog": "00009",
+    "size": "S",
+    "success": true,
+    "time_s": 49.3
+  },
+  {
+    "dog": "00009",
+    "size": "M",
+    "success": true,
+    "time_s": 41.3
+  },
+  {
+    "dog": "00009",
+    "size": "L",
+    "success": true,
+    "time_s": 45.3
+  },
+  {
+    "dog": "00010",
+    "size": "S",
+    "success": true,
+    "time_s": 48.2
+  },
+  {
+    "dog": "00010",
+    "size": "M",
+    "success": true,
+    "time_s": 44.6
+  },
+  {
+    "dog": "00010",
+    "size": "L",
+    "success": true,
+    "time_s": 49.5
+  }
+]

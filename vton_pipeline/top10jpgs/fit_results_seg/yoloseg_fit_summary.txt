@@ -1,0 +1,77 @@
+================================================================================
+    DOG 3D MEASUREMENT ADVANCEMENT: REMBG VS CLASS-AWARE YOLO-SEG
+================================================================================
+
+Golden ID  | rembg Girth (cm)   | YOLO-seg Girth (cm)   | Diff (cm)  | Diff (%)
+--------------------------------------------------------------------------------
+00002      | 57.02              | 53.53                 | -3.49      | -6.12   %
+00003      | 68.85              | 70.92                 | +2.06      | +3.00   %
+00004      | 59.42              | 59.40                 | -0.01      | -0.02   %
+00005      | 85.23              | 51.97                 | -33.26     | -39.02  %
+00006      | 69.49              | 69.76                 | +0.27      | +0.38   %
+00007      | 49.48              | 46.96                 | -2.52      | -5.10   %
+00008      | 63.75              | 64.06                 | +0.31      | +0.49   %
+00009      | 73.24              | 61.26                 | -11.98     | -16.36  %
+00010      | 74.67              | 58.60                 | -16.07     | -21.53  %
+
+================================================================================
+     YOLO-SEG MESH FIT VERDICTS (S/M/L)
+================================================================================
+
+Golden ID: 00002
+  YOLO-seg Girth:  53.53 cm
+  S Size Verdict:  Loose
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong!
+
+Golden ID: 00003
+  YOLO-seg Girth:  70.92 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Good fit
+  L Size Verdict:  Loose
+
+Golden ID: 00004
+  YOLO-seg Girth:  59.40 cm
+  S Size Verdict:  Good fit
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+
+Golden ID: 00005
+  YOLO-seg Girth:  51.97 cm
+  S Size Verdict:  Loose
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong!
+
+Golden ID: 00006
+  YOLO-seg Girth:  69.76 cm
+  S Size Verdict:  Tight
+  M Size Verdict:  Good fit
+  L Size Verdict:  Loose
+
+Golden ID: 00007
+  YOLO-seg Girth:  46.96 cm
+  S Size Verdict:  Loose
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+  [ALERT] Tolerance band (8%) makes ALL sizes S/M/L look wrong!
+
+Golden ID: 00008
+  YOLO-seg Girth:  64.06 cm
+  S Size Verdict:  Good fit
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+
+Golden ID: 00009
+  YOLO-seg Girth:  61.26 cm
+  S Size Verdict:  Good fit
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+
+Golden ID: 00010
+  YOLO-seg Girth:  58.60 cm
+  S Size Verdict:  Good fit
+  M Size Verdict:  Loose
+  L Size Verdict:  Loose
+
