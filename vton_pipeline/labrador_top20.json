@@ -1,0 +1,162 @@
+[
+  {
+    "file": "00027.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00027.jpg",
+    "aspect": 1.67,
+    "coverage": 0.93,
+    "score": 1.551,
+    "size": "334x197"
+  },
+  {
+    "file": "00005.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00005.jpg",
+    "aspect": 1.67,
+    "coverage": 0.92,
+    "score": 1.537,
+    "size": "1055x626"
+  },
+  {
+    "file": "00022.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00022.jpg",
+    "aspect": 1.66,
+    "coverage": 0.92,
+    "score": 1.531,
+    "size": "1301x759"
+  },
+  {
+    "file": "00028.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00028.jpg",
+    "aspect": 1.53,
+    "coverage": 0.95,
+    "score": 1.458,
+    "size": "604x399"
+  },
+  {
+    "file": "00013.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00013.jpg",
+    "aspect": 1.58,
+    "coverage": 0.92,
+    "score": 1.449,
+    "size": "681x427"
+  },
+  {
+    "file": "00064.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00064.jpg",
+    "aspect": 1.52,
+    "coverage": 0.94,
+    "score": 1.426,
+    "size": "1169x790"
+  },
+  {
+    "file": "00037.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00037.jpg",
+    "aspect": 1.5,
+    "coverage": 0.94,
+    "score": 1.419,
+    "size": "435x286"
+  },
+  {
+    "file": "00061.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00061.jpg",
+    "aspect": 1.64,
+    "coverage": 0.87,
+    "score": 1.416,
+    "size": "1256x733"
+  },
+  {
+    "file": "00009.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00009.jpg",
+    "aspect": 1.54,
+    "coverage": 0.92,
+    "score": 1.415,
+    "size": "701x452"
+  },
+  {
+    "file": "00033.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00033.jpg",
+    "aspect": 1.47,
+    "coverage": 0.96,
+    "score": 1.408,
+    "size": "510x342"
+  },
+  {
+    "file": "00059.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00059.jpg",
+    "aspect": 1.54,
+    "coverage": 0.91,
+    "score": 1.398,
+    "size": "1193x752"
+  },
+  {
+    "file": "00058.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00058.jpg",
+    "aspect": 1.49,
+    "coverage": 0.93,
+    "score": 1.395,
+    "size": "989x643"
+  },
+  {
+    "file": "00063.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00063.jpg",
+    "aspect": 1.44,
+    "coverage": 0.97,
+    "score": 1.395,
+    "size": "1353x948"
+  },
+  {
+    "file": "00020.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00020.jpg",
+    "aspect": 1.47,
+    "coverage": 0.94,
+    "score": 1.389,
+    "size": "962x669"
+  },
+  {
+    "file": "00031.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00031.jpg",
+    "aspect": 1.49,
+    "coverage": 0.91,
+    "score": 1.361,
+    "size": "602x379"
+  },
+  {
+    "file": "00052.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00052.jpg",
+    "aspect": 1.46,
+    "coverage": 0.93,
+    "score": 1.36,
+    "size": "917x621"
+  },
+  {
+    "file": "00050.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00050.jpg",
+    "aspect": 1.45,
+    "coverage": 0.93,
+    "score": 1.346,
+    "size": "1048x707"
+  },
+  {
+    "file": "00066.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00066.jpg",
+    "aspect": 1.36,
+    "coverage": 0.97,
+    "score": 1.324,
+    "size": "845x601"
+  },
+  {
+    "file": "00023.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00023.jpg",
+    "aspect": 1.39,
+    "coverage": 0.95,
+    "score": 1.322,
+    "size": "897x625"
+  },
+  {
+    "file": "00012.jpg",
+    "path": "/Users/udayk/Desktop/CCBD/CCBD_repo/labrador/00012.jpg",
+    "aspect": 1.38,
+    "coverage": 0.94,
+    "score": 1.293,
+    "size": "354x257"
+  }
+]
