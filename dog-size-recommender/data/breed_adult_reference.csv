@@ -1,0 +1,35 @@
+# adult_weight_kg / adult_height_cm: REAL, from official AKC breed standards
+# (converted lbs->kg, in->cm). Verified via web search 2026-07-13.
+#
+# adult_chest_min/max_cm (Golden Retriever): REAL, from the same Russian
+# Retriever Club table cited in breed_growth_curve.csv (adult range 70-86cm).
+#
+# adult_neck_min/max_cm (Golden Retriever): DERIVED, not directly sourced.
+# Method: a harness retailer (Mimi Green) publishes a REAL 8-week-old Golden
+# Retriever neck-girth range (25.4-30.5cm). Using the growth curve's fraction
+# at ~2 months (0.583, assuming neck grows proportionally to chest -- an
+# unverified simplifying assumption), midpoint neck at 8wk (27.95cm) implies
+# adult neck midpoint ~= 27.95 / 0.583 = 47.9cm. Range built with the same
+# relative spread as the real adult chest range (~20.5%).
+#
+# adult_chest/_neck (Labrador Retriever): DERIVED, NOT independently
+# sourced for Labradors at all. Method: Golden Retriever's real
+# chest-to-height ratio (78cm / 57.8cm =~ 1.35) applied to Labrador's own
+# AKC height midpoint (58.4cm), plus a +5% "stockier build" adjustment
+# (unverified assumption, consistent with commonly-cited Lab vs Golden body
+# type differences) => chest ~=83cm. Neck derived from that using the same
+# neck/chest ratio found for Golden Retriever (0.614).
+#
+# adult_back_min/_max_cm: BLANK for both breeds -- no source (sourced or
+# derivable) was found anywhere. Do not invent. Fill from real measured
+# dogs if you get the chance; until then, back_length simply won't be
+# available in quick-mode estimates (chest/neck estimates still work).
+#
+# CONFIDENCE NOTE: treat DERIVED values as rough scaffolding, not
+# publication-quality numbers. Real measured data should replace them
+# before this is used for anything beyond internal testing/demos.
+breed,sex,adult_weight_min_kg,adult_weight_max_kg,adult_height_min_cm,adult_height_max_cm,adult_neck_min_cm,adult_neck_max_cm,adult_chest_min_cm,adult_chest_max_cm,adult_back_min_cm,adult_back_max_cm,source
+Golden Retriever,male,29.5,34.0,58.4,61.0,43.0,52.8,70,86,,,"AKC (weight/height REAL) + Russian Retriever Club (chest REAL) + DERIVED neck (see header)"
+Golden Retriever,female,25.0,29.5,54.6,57.2,43.0,52.8,70,86,,,"AKC (weight/height REAL) + Russian Retriever Club (chest REAL) + DERIVED neck (see header)"
+Labrador Retriever,male,29.5,36.3,57.2,62.2,45.6,56.0,74.3,91.3,,,"AKC (weight/height REAL) + DERIVED chest/neck (see header NOT independently sourced for Labrador)"
+Labrador Retriever,female,25.0,31.8,54.6,59.7,45.6,56.0,74.3,91.3,,,"AKC (weight/height REAL) + DERIVED chest/neck (see header NOT independently sourced for Labrador)"

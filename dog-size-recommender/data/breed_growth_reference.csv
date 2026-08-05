@@ -1,0 +1,38 @@
+# SCHEMA CHANGE: this file now stores GROWTH ANCHORS (birth value + growth
+# completion age), not per-age-checkpoint rows. The growth model
+# (src/growth_model.py) does: piecewise linear from birth_value at age=0 to
+# the adult value (from breed_adult_reference.csv) at growth_complete_months,
+# then CONSTANT after that. This matches your explicit instruction: not a
+# single linear relation across all ages, but linear-then-flat.
+#
+# birth_weight_kg: REAL, cited below.
+#   - Labrador: peer-reviewed (Ceron-Romero et al./Guiding Eyes for the
+#     Blind dataset, n=7,827 puppies, published in BMC Veterinary Research
+#     via PMC, "Heritabilities for puppy weight at birth in Labrador
+#     Retrievers"): overall avg 485g, males 497g, females 472g.
+#   - Golden Retriever: NOT sex-split in any source I could find. Multiple
+#     breeder/vet-info sites (Snowy Pines, My Golden Retriever Puppies,
+#     JustAnswer vet Q&A) converge on 14-16oz (~400-450g) at birth. This is
+#     weaker evidence than the Labrador figure (no peer-reviewed source
+#     found) -- using midpoint 425g for both sexes, flagged accordingly.
+#
+# birth_neck_cm / birth_chest_cm / birth_back_cm: BLANK. I searched
+# specifically for newborn Golden Retriever / Labrador girth measurements
+# and could not find ANY published source -- birth weight is tracked and
+# published, birth girth apparently is not. THIS IS THE DATA GAP your
+# dog-owner field survey should target: even 2-3 newly-whelped puppies
+# measured (neck/chest/back with a soft tape, same technique as the
+# Supertails chart) would give you a real anchor here. See
+# data/dog_owner_measurements_template.csv and
+# src/calibrate_from_owner_data.py.
+#
+# growth_complete_months: 24, per your instruction. Source nuance: Pawlicy
+# states Goldens can take "up to two years to reach full weight" and Labs
+# may keep "filling out their chest up to 18 months." Using 24 uniformly
+# per your directive is a reasonable simplification, slightly conservative
+# for Labs.
+breed,sex,birth_weight_kg,birth_neck_cm,birth_chest_cm,birth_back_cm,growth_complete_months,source
+Golden Retriever,male,0.425,,,,24,"Birth wt: breeder/vet-info consensus (Snowy Pines, My Golden Retriever Puppies, JustAnswer) 14-16oz, not sex-split, weaker source. Growth period: Pawlicy Golden Retriever growth chart."
+Golden Retriever,female,0.425,,,,24,"Same as male -- no sex-specific Golden birth weight data found."
+Labrador Retriever,male,0.497,,,,24,"Birth wt: peer-reviewed, BMC Veterinary Research (PMC), Guiding Eyes for the Blind dataset n=7827 puppies. Growth period: Pawlicy Labrador growth chart (18-24mo chest fill-out) + user directive of 24mo uniform cutoff."
+Labrador Retriever,female,0.472,,,,24,"Birth wt: peer-reviewed, BMC Veterinary Research (PMC), Guiding Eyes for the Blind dataset n=7827 puppies. Growth period: Pawlicy Labrador growth chart (18-24mo chest fill-out) + user directive of 24mo uniform cutoff."

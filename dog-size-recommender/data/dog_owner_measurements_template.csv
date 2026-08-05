@@ -1,0 +1,13 @@
+# Template for collecting REAL paired measurements from real dogs (yours,
+# teammates', friends', shelter/vet-clinic dogs -- anything you can get
+# consent to measure). Even 10-20 rows spanning different ages would let
+# you replace the DERIVED numbers in breed_adult_reference.csv and fill
+# the currently-blank back_length columns with real data.
+#
+# How to measure (same technique as the Supertails chart you provided):
+#   neck_cm: around the neck where a collar sits
+#   chest_cm: around the widest part of the torso, just behind front legs
+#   back_length_cm: base of neck to base of tail
+#
+# date: measurement date (YYYY-MM-DD) -- helps if you re-measure a growing puppy over time
+dog_id,breed,sex,age_months,weight_kg,neck_cm,chest_cm,back_length_cm,date,notes

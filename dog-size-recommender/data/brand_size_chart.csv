@@ -1,0 +1,34 @@
+# SOURCE: Supertails general size chart (screenshot provided by user, 2026-07-07).
+# NOTE: this chart is branded "Supertails," not confirmed "Pets Way"-specific --
+# verify against the actual product-page chart if precision matters later.
+# ASSUMPTION (per user, 2026-07-11): same chart used for BOTH clothing and
+# harness product_type rows below, until a harness-specific chart is obtained.
+#
+# weight_min_kg/weight_max_kg: BLANK -- this chart has no weight data at all.
+# breed_guideline: BLANK -- this is a generic chart, not breed-specific.
+#
+# neck_min/max, chest_min/max: derived as (previous size's value, this size's
+# value], preserving the two real gaps in the source data (M-max(36) to
+# L-min(39) neck, and L-max(41) to XL-min(46) neck) -- not smoothed over.
+# back_min/max: same derivation method (source only gave one value per size).
+brand,product_type,size,neck_min_cm,neck_max_cm,chest_min_cm,chest_max_cm,back_min_cm,back_max_cm,weight_min_kg,weight_max_kg,breed_guideline,source
+Supertails,clothing,XS,0,28,0,41,0,29,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,S,28,32,41,48,29,37,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,M,32,36,48,56,37,42,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,L,39,41,56,64,42,47,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,XL,46,48,64,71,47,56,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,2XL,48,52,71,79,56,60,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,3XL,52,56,79,86,60,64,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,4XL,56,60,86,95,64,67,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,5XL,60,66,95,104,67,70,,,,Supertails general size chart (2026-07-07)
+Supertails,clothing,6XL,66,69,104,109,70,74,,,,Supertails general size chart (2026-07-07)
+Supertails,harness,XS,0,28,0,41,0,29,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,S,28,32,41,48,29,37,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,M,32,36,48,56,37,42,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,L,39,41,56,64,42,47,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,XL,46,48,64,71,47,56,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,2XL,48,52,71,79,56,60,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,3XL,52,56,79,86,60,64,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,4XL,56,60,86,95,64,67,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,5XL,60,66,95,104,67,70,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing
+Supertails,harness,6XL,66,69,104,109,70,74,,,,Supertails general size chart (2026-07-07) -- assumed same as clothing

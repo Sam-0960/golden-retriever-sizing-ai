@@ -1,0 +1,4 @@
+dog_id,image_path,user_breed,age_months,sex,weight_kg,height_cm,neck_cm,chest_cm,back_length_cm
+sample_001,data/breed_images/val/labrador/example1.jpg,Labrador Retriever,18,male,28,58,,,
+sample_002,data/breed_images/val/golden_retriever/example1.jpg,Golden Retriever,8,female,19,,,
+sample_003,data/breed_images/val/labrador/example2.jpg,Labrador Retriever,36,male,32,60,38,62,47

@@ -1,0 +1,58 @@
+# HOW THIS CURVE WAS BUILT (read before trusting it):
+#
+# fraction_of_adult = chest_girth_at_this_age / chest_girth_adult_midpoint
+#
+# GOLDEN RETRIEVER real data points (ages 1-10 months): chest girth (cm)
+# from a Golden Retriever puppy growth table sourced from the Russian
+# Retriever Club, republished by Vlanti Delimar kennel (Belarus), fetched
+# 2026-07-14: https://vlantidelimar.ru/english/information/measurements.english.html
+# Adult chest girth midpoint (78cm) is from the SAME table (adult range 70-86cm),
+# and its adult height range (54-61cm) matches our AKC-sourced height data
+# closely, which is a decent cross-validation that this table is credible.
+#
+# age=0 (birth) row: LINEARLY EXTRAPOLATED backward from the age=1 and age=2
+# real data points. This is NOT a measured newborn value -- no source
+# documents newborn girth for either breed (newborns are tracked by weight
+# only; gear-fitting starts around 6-8 weeks). Treat age=0 as a mathematical
+# curve anchor, not a fact.
+#
+# ages 11-24: EXTRAPOLATED. The source table's real data stops at month 10
+# (already at 0.987 of adult chest). Multiple other sources (Pawlicy, various
+# vet-reviewed growth guides) say chest/body "filling out" continues to
+# 18-24 months even after height/skeletal growth is done. To honor that AND
+# your instruction to model growth as linear-to-24-months-then-flat, ages
+# 11-24 are a straight-line interpolation from the real month-10 point to
+# 1.0 (fully adult) at month 24. This segment is a modeling choice, not
+# sourced data.
+#
+# LABRADOR RETRIEVER: no independently sourced month-by-month girth curve
+# was found anywhere. This file REUSES the Golden Retriever fraction curve
+# for Labradors too, on the reasoning that both are similarly-sized retriever
+# breeds with near-identical AKC growth timelines (both commonly cited as
+# reaching full size by 18-24 months). This is an ASSUMPTION, not verified
+# for Labradors specifically -- flagged in the source column.
+breed,age_months,fraction_of_adult_chest,source
+Golden Retriever,0,0.379,EXTRAPOLATED (linear back from real month 1-2 data)
+Golden Retriever,1,0.481,Russian Retriever Club growth table (real data)
+Golden Retriever,2,0.583,Russian Retriever Club growth table (real data)
+Golden Retriever,3,0.686,Russian Retriever Club growth table (real data)
+Golden Retriever,4,0.795,Russian Retriever Club growth table (real data)
+Golden Retriever,5,0.859,Russian Retriever Club growth table (real data)
+Golden Retriever,6,0.878,Russian Retriever Club growth table (real data)
+Golden Retriever,7,0.917,Russian Retriever Club growth table (real data)
+Golden Retriever,8,0.936,Russian Retriever Club growth table (real data)
+Golden Retriever,9,0.942,Russian Retriever Club growth table (real data)
+Golden Retriever,10,0.987,Russian Retriever Club growth table (real data)
+Golden Retriever,24,1.0,DEFINITION (fully adult per user's growth model spec)
+Labrador Retriever,0,0.379,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,1,0.481,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,2,0.583,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,3,0.686,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,4,0.795,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,5,0.859,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,6,0.878,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,7,0.917,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,8,0.936,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,9,0.942,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,10,0.987,ASSUMED same curve as Golden Retriever (not independently verified)
+Labrador Retriever,24,1.0,DEFINITION (fully adult per user's growth model spec)
